@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B93B80F71DAFC322007C3AB3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93B80F61DAFC322007C3AB3 /* main.swift */; };
+		B973FC271DAFC4AC00A91943 /* interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B973FC261DAFC4AC00A91943 /* interactive.swift */; };
+		B973FC291DAFC4B700A91943 /* io.swift in Sources */ = {isa = PBXBuildFile; fileRef = B973FC281DAFC4B700A91943 /* io.swift */; };
+		B973FC2B1DAFC52900A91943 /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B973FC2A1DAFC52900A91943 /* person.swift */; };
+		B973FC2D1DAFC53C00A91943 /* animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B973FC2C1DAFC53C00A91943 /* animal.swift */; };
+		B973FC2F1DAFD9C500A91943 /* zoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B973FC2E1DAFD9C500A91943 /* zoo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		B93B80F31DAFC322007C3AB3 /* ZooProject-ccs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ZooProject-ccs"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93B80F61DAFC322007C3AB3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B973FC261DAFC4AC00A91943 /* interactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = interactive.swift; sourceTree = "<group>"; };
+		B973FC281DAFC4B700A91943 /* io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = io.swift; sourceTree = "<group>"; };
+		B973FC2A1DAFC52900A91943 /* person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
+		B973FC2C1DAFC53C00A91943 /* animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animal.swift; sourceTree = "<group>"; };
+		B973FC2E1DAFD9C500A91943 /* zoo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zoo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				B93B80F61DAFC322007C3AB3 /* main.swift */,
+				B973FC261DAFC4AC00A91943 /* interactive.swift */,
+				B973FC281DAFC4B700A91943 /* io.swift */,
+				B973FC2A1DAFC52900A91943 /* person.swift */,
+				B973FC2C1DAFC53C00A91943 /* animal.swift */,
+				B973FC2E1DAFD9C500A91943 /* zoo.swift */,
 			);
 			path = "ZooProject-ccs";
 			sourceTree = "<group>";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B973FC271DAFC4AC00A91943 /* interactive.swift in Sources */,
+				B973FC291DAFC4B700A91943 /* io.swift in Sources */,
+				B973FC2B1DAFC52900A91943 /* person.swift in Sources */,
 				B93B80F71DAFC322007C3AB3 /* main.swift in Sources */,
+				B973FC2F1DAFD9C500A91943 /* zoo.swift in Sources */,
+				B973FC2D1DAFC53C00A91943 /* animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +270,7 @@
 				B93B80FC1DAFC322007C3AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
