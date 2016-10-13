@@ -17,8 +17,9 @@ let bird = Bird()
 
 private var done: Bool = false
 
-io.writeMessage("**** ZOO ****")
-io.writeMessage("Enter 'animal' or 'person'")
+io.writeMessage("Welcome to the Zoo Management System")
+io.writeMessage("Enter 'animal' or 'person' to add a new profile into the system")
+io.writeMessage("Enter 'help' to view help menu")
 
 while !done {
     var currentInput: String = ""
@@ -27,6 +28,9 @@ while !done {
     totalAnimals.sort()
     
     switch currentInput {
+    case "help":
+        io.writeMessage("Enter 'animal' or 'person' to add a new profile into the system")
+        io.writeMessage("Enter 'quit' to quit Zoo Management System")
     case "animal":
         io.writeMessage("'view all' 'add bird' 'add fish' 'add land'")
         var currentInput: String = ""
@@ -51,7 +55,9 @@ while !done {
             print("Invalid Input")
         }
     case "person":
-        io.writeMessage("'view all' 'add employee' 'add visitor'")
+        io.writeMessage("Enter 'view all' to view current list of people in zoo")
+        io.writeMessage("Enter 'add visitor' to add new visitor profile")
+        io.writeMessage("Enter 'add employee' to add new employee profile")
         var currentInput: String = ""
         currentInput = io.getInput()
         var totalPeople = zoo.visitorList + zoo.employeeList
